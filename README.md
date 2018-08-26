@@ -1,2 +1,2 @@
 # learnopengl
-learnopengl.com with D
+Implement https://github.com/JoeyDeVries/LearnOpenGL with D. https://learnopengl.com
