@@ -1,0 +1,41 @@
+name "learnopengl"
+description "learnopengl.com with dlang"
+authors "Thomas Mader"
+license "public domain"
+copyFiles "lib/*.dll" platform="windows-x86"
+copyFiles "lib64/*.dll" platform="windows-x86_64"
+libs "glfw3dll" platform="windows"
+targetType "none"
+
+subPackage {
+    name "hello_window"
+    targetName "hello_window"
+    targetPath "bin"
+    targetType "executable"
+    sourcePaths "src/getting_started/hello_window" "src/glad"
+    importPaths "src/getting_started/hello_window" "src/glad"
+    dependency "derelict-gl3" version="~>1.0.24"
+    dependency "derelict-glfw3" version="~>3.1.3"
+}
+
+subPackage {
+    name "hello_window_clear"
+    targetName "hello_window_clear"
+    targetPath "bin"
+    targetType "executable"
+    sourcePaths "src/getting_started/hello_window_clear" "src/glad"
+    importPaths "src/getting_started/hello_window_clear" "src/glad"
+    dependency "derelict-gl3" version="~>1.0.24"
+    dependency "derelict-glfw3" version="~>3.1.3"
+}
+
+subPackage {
+    name "hello_triangle"
+    targetName "hello_triangle"
+    targetPath "bin"
+    targetType "executable"
+    sourcePaths "src/getting_started/hello_triangle" "src/glad"
+    importPaths "src/getting_started/hello_triangle" "src/glad"
+    dependency "derelict-gl3" version="~>1.0.24"
+    dependency "derelict-glfw3" version="~>3.1.3"
+}
