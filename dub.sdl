@@ -12,8 +12,8 @@ subPackage {
     targetName "hello_window"
     targetPath "bin"
     targetType "executable"
-    sourcePaths "src/getting_started/hello_window" "src/glad"
-    importPaths "src/getting_started/hello_window" "src/glad"
+    sourcePaths "src/getting_started/hello_window"
+    importPaths "src/getting_started/hello_window"
     dependency "derelict-gl3" version="~>1.0.24"
     dependency "derelict-glfw3" version="~>3.1.3"
 }
@@ -23,8 +23,8 @@ subPackage {
     targetName "hello_window_clear"
     targetPath "bin"
     targetType "executable"
-    sourcePaths "src/getting_started/hello_window_clear" "src/glad"
-    importPaths "src/getting_started/hello_window_clear" "src/glad"
+    sourcePaths "src/getting_started/hello_window_clear"
+    importPaths "src/getting_started/hello_window_clear"
     dependency "derelict-gl3" version="~>1.0.24"
     dependency "derelict-glfw3" version="~>3.1.3"
 }
@@ -34,8 +34,8 @@ subPackage {
     targetName "hello_triangle"
     targetPath "bin"
     targetType "executable"
-    sourcePaths "src/getting_started/hello_triangle" "src/glad"
-    importPaths "src/getting_started/hello_triangle" "src/glad"
+    sourcePaths "src/getting_started/hello_triangle"
+    importPaths "src/getting_started/hello_triangle"
     dependency "derelict-gl3" version="~>1.0.24"
     dependency "derelict-glfw3" version="~>3.1.3"
 }
