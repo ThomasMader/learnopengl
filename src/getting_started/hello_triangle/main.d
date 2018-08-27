@@ -42,7 +42,7 @@ void main()
 
     GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", null, null);
     if (window == null) {
-    writefln("Failed to create GLFW window");
+        writefln("Failed to create GLFW window");
         return;
     }
     glfwMakeContextCurrent(window);
