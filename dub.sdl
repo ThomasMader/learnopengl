@@ -37,3 +37,14 @@ subPackage {
     importPaths "src/getting_started/hello_triangle"
     dependency "learnopengl" version="*"
 }
+
+subPackage {
+    name "hello_triangle_indexed"
+    targetName "hello_triangle_indexed"
+    targetPath "bin"
+    targetType "executable"
+    sourcePaths "src/getting_started/hello_triangle_indexed"
+    importPaths "src/getting_started/hello_triangle_indexed"
+    dependency "derelict-gl3" version="~>1.0.24"
+    dependency "derelict-glfw3" version="~>3.1.3"
+}
