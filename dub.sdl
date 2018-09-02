@@ -48,3 +48,14 @@ subPackage {
     dependency "derelict-gl3" version="~>1.0.24"
     dependency "derelict-glfw3" version="~>3.1.3"
 }
+
+subPackage {
+    name "hello_triangle_exercise1"
+    targetName "hello_triangle_exercise1"
+    targetPath "bin"
+    targetType "executable"
+    sourcePaths "src/getting_started/hello_triangle_exercise1"
+    importPaths "src/getting_started/hello_triangle_exercise1"
+    dependency "derelict-gl3" version="~>1.0.24"
+    dependency "derelict-glfw3" version="~>3.1.3"
+}
